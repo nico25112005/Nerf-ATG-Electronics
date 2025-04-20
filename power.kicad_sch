@@ -2700,7 +2700,7 @@
 		)
 		(uuid "fc6a0988-5b23-47a0-b443-6b52e3d2fe54")
 	)
-	(global_label "IO4"
+	(global_label "Batt_ADC"
 		(shape input)
 		(at 52.07 96.52 0)
 		(fields_autoplaced yes)
@@ -2710,9 +2710,9 @@
 			)
 			(justify left)
 		)
-		(uuid "362374b0-6a37-482d-8d1b-0937f833e99f")
+		(uuid "decc9ebe-bf6c-4a9d-a734-2e07f7085a31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.2 96.52 0)
+			(at 63.5218 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)

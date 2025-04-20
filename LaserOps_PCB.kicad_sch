@@ -69,7 +69,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "60bb22b7-b1cd-47ac-a0be-daf4dc825355")
-		(property "Sheetname" "In_Out_puts"
+		(property "Sheetname" "In_Out"
 			(at 20.32 140.6634 0)
 			(effects
 				(font
