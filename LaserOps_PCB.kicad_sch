@@ -11,6 +11,17 @@
 		(company "made by Nico Hütter")
 	)
 	(lib_symbols)
+	(text "By default, everything is configured for the Nerf Laser Ops Deltaburst Blaster.\nBy cutting off the solder jumpers and re-soldering, the board can also be\nconfigured for the Nerf Laser Ops Alphapoint Blaster.\nIn addition, there are some new features that are optional, such as the\ncamera(OV5060), an Accelorometer or an OLED display (SSD1306)."
+		(exclude_from_sim no)
+		(at 129.794 35.56 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "999bfa0a-6932-4bce-8640-2f8974661148")
+	)
 	(sheet
 		(at 20.32 24.13)
 		(size 105.41 50.8)

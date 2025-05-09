@@ -1,0 +1,23 @@
+Circuit: * C:\Users\nicob\OneDrive\Dokumente\Own_Projects\Nerf-ATG-Electronics\Simulations\IR-Led-Constant_Current_old.asc
+
+Limiting rise time of source v2 to 1.3e-006
+Limiting fall time of source v2 to 1.3e-006
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Apr 22 11:33:09 2025
+Total elapsed time: 0.102 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4041
+traniter = 4025
+tranpoints = 1608
+accept = 1427
+rejected = 181
+matrix size = 22
+fillins = 10
+solver = Normal
+Matrix Compiler1: 2.01 KB object code size  0.4/0.2/[0.2]
+Matrix Compiler2: off  [0.2]/0.3/0.3
+
