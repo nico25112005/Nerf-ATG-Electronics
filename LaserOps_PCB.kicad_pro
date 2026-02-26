@@ -242,6 +242,10 @@
         ""
       ],
       [
+        "power_pin_not_driven|2324100|622300|d6c63ceb-63a3-4a48-a8b5-e2c7d9fee32b|00000000-0000-0000-0000-000000000000|/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/60bb22b7-b1cd-47ac-a0be-daf4dc825355|/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/60bb22b7-b1cd-47ac-a0be-daf4dc825355|",
+        ""
+      ],
+      [
         "power_pin_not_driven|800100|927100|6c1b4e44-2030-4967-a173-5b8872ea5921|00000000-0000-0000-0000-000000000000|/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/04971dad-1181-4ff1-b99d-d5eca715a10a|/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/04971dad-1181-4ff1-b99d-d5eca715a10a|",
         ""
       ]
