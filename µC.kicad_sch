@@ -7371,7 +7371,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 152.4 74.93 0)
 			(effects
 				(font

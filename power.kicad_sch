@@ -7406,12 +7406,6 @@
 		(uuid "b7e904e3-b567-4d86-9794-b6f0216a47fd")
 	)
 	(junction
-		(at 240.03 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bae7cf94-e53c-4ff9-93a1-5a4168b1a5fc")
-	)
-	(junction
 		(at 222.25 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7446,6 +7440,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d88df680-a6df-4b9d-b8cb-be5fce5d37a5")
+	)
+	(junction
+		(at 240.03 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da2271db-974b-47d7-9a47-1a0316aa8fe5")
 	)
 	(junction
 		(at 114.3 107.95)
@@ -7783,6 +7783,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 55.88) (xy 246.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6703e1fe-729f-408f-86d7-d7624e75a2cb")
+	)
+	(wire
+		(pts
 			(xy 132.08 115.57) (xy 123.19 115.57)
 		)
 		(stroke
@@ -7820,16 +7830,6 @@
 			(type default)
 		)
 		(uuid "7019c655-e8b4-445c-8f3d-a020f70f3074")
-	)
-	(wire
-		(pts
-			(xy 240.03 55.88) (xy 246.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "763d7341-8bd9-46e1-ae32-0353c0b28376")
 	)
 	(wire
 		(pts
@@ -10891,7 +10891,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0805,47pF")
-		(at 240.03 52.07 0)
+		(at 240.03 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10905,7 +10905,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "47pF"
@@ -10914,11 +10914,11 @@
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0805"
-			(at 238.252 52.07 90)
+			(at 241.808 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11040,7 +11040,7 @@
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -15312,7 +15312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 116.84 41.656 90)
 			(effects
 				(font
