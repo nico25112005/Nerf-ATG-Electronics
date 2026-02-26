@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "nnaf")(type "KiCad")(uri "${KIPRJMOD}/nnaf.pretty")(options "")(descr ""))
+)
