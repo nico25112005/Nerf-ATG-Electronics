@@ -7268,19 +7268,13 @@
 		(uuid "1236c5e7-ed28-4ca2-9d09-2dcf4d5d403b")
 	)
 	(junction
-		(at 132.08 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bdfe70a-f013-4491-8c22-19747605286f")
-	)
-	(junction
 		(at 246.38 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "277e5c37-1715-4a40-8897-f0ae13dfcf4f")
 	)
 	(junction
-		(at 123.19 115.57)
+		(at 114.3 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b27021b-059e-4179-bcfc-d6a874d73033")
@@ -7290,6 +7284,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c8b4bed-34ff-42ec-b6f5-c912467e564a")
+	)
+	(junction
+		(at 73.66 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e06a607-6166-4e34-8251-64374d794040")
 	)
 	(junction
 		(at 39.37 36.83)
@@ -7316,12 +7316,6 @@
 		(uuid "3c4894f0-8a6d-4e44-bcb3-010a5a4ade0c")
 	)
 	(junction
-		(at 114.3 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "450b0415-e2c1-44ec-96b4-3b15ab840498")
-	)
-	(junction
 		(at 123.19 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7338,18 +7332,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c046ca4-d7c9-4a2b-bb94-b53369eee0ae")
-	)
-	(junction
-		(at 142.24 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7462f1c9-a63a-4e5a-bba6-50b5cff5e2f7")
-	)
-	(junction
-		(at 142.24 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76368436-a8b1-4cfe-bd2d-10194fd4f904")
 	)
 	(junction
 		(at 82.55 45.72)
@@ -7382,12 +7364,6 @@
 		(uuid "a742774a-ca17-4d56-b023-d1370eaa5a94")
 	)
 	(junction
-		(at 132.08 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae6bbeb2-a229-4369-88fc-59b821f96fe6")
-	)
-	(junction
 		(at 127 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7418,7 +7394,7 @@
 		(uuid "c9d0eb59-fc5a-4030-a04e-afb5fc9b1d50")
 	)
 	(junction
-		(at 123.19 107.95)
+		(at 114.3 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdd04a6b-9678-406b-9bc7-c9954f27de35")
@@ -7446,12 +7422,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da2271db-974b-47d7-9a47-1a0316aa8fe5")
-	)
-	(junction
-		(at 114.3 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e99261aa-12e5-4a50-a12a-7c74ed8d4284")
 	)
 	(junction
 		(at 165.1 38.1)
@@ -7503,16 +7473,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 93.98) (xy 151.13 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015bee9b-12ee-4728-a92c-b9711b675ed4")
-	)
-	(wire
-		(pts
 			(xy 64.77 45.72) (xy 64.77 44.45)
 		)
 		(stroke
@@ -7550,16 +7510,6 @@
 			(type default)
 		)
 		(uuid "12486fd1-a5fb-4d8c-8246-0080d73d0781")
-	)
-	(wire
-		(pts
-			(xy 132.08 107.95) (xy 140.97 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146f59c6-ba97-4d14-b117-ec8bd6c49820")
 	)
 	(wire
 		(pts
@@ -7733,7 +7683,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 115.57) (xy 114.3 115.57)
+			(xy 111.76 115.57) (xy 114.3 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7763,7 +7713,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 107.95) (xy 123.19 107.95)
+			(xy 111.76 107.95) (xy 114.3 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7793,7 +7743,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 115.57) (xy 123.19 115.57)
+			(xy 114.3 115.57) (xy 123.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7833,16 +7783,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 115.57) (xy 114.3 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e7e007-1f01-42e1-a3fd-2bcdaf71c146")
-	)
-	(wire
-		(pts
 			(xy 207.01 40.64) (xy 212.09 40.64)
 		)
 		(stroke
@@ -7853,16 +7793,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 151.13 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8523febf-6167-45df-8f4c-22b936c07b6a")
-	)
-	(wire
-		(pts
 			(xy 87.63 36.83) (xy 93.98 36.83)
 		)
 		(stroke
@@ -7870,16 +7800,6 @@
 			(type default)
 		)
 		(uuid "86b238a9-ed4e-4e8c-aecc-e5a6e6b38eb8")
-	)
-	(wire
-		(pts
-			(xy 151.13 87.63) (xy 142.24 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1e9404-a6d4-4875-b39a-9f12d0900280")
 	)
 	(wire
 		(pts
@@ -8123,16 +8043,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 114.3 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae12862-0964-491a-8a61-aaf8c50903f3")
-	)
-	(wire
-		(pts
 			(xy 158.75 38.1) (xy 158.75 41.91)
 		)
 		(stroke
@@ -8153,13 +8063,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 142.24 95.25)
+			(xy 73.66 104.14) (xy 77.47 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfb561a8-6e49-4e75-8f07-1eedfe12a0af")
+		(uuid "e1921981-b401-4916-830f-57ae04950d30")
 	)
 	(wire
 		(pts
@@ -8233,16 +8143,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 115.57) (xy 140.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecb86a31-aff5-4749-8a8a-f150b8cd3a8c")
-	)
-	(wire
-		(pts
 			(xy 38.1 101.6) (xy 38.1 104.14)
 		)
 		(stroke
@@ -8313,7 +8213,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 132.08 107.95)
+			(xy 114.3 107.95) (xy 123.19 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8323,7 +8223,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 104.14) (xy 77.47 104.14)
+			(xy 71.12 104.14) (xy 73.66 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9100,202 +9000,6 @@
 			(project "LaserOps_PCB"
 				(path "/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/d87c0e11-25bc-47e4-9f8b-0d6cc0deee19"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:1206,100nF")
-		(at 114.3 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21e97e6f-72c6-4489-84c4-e4d226eab10c")
-		(property "Reference" "C23"
-			(at 116.84 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 116.84 111.76 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
-			(at 112.522 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.pdf"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C24497"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1805943"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.017USD"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "8"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL31B104KBCNNNC"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "50V"
-			(at 116.84 114.3 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28f05488-ea84-410d-aa31-de7eedb6c97a")
-		)
-		(pin "1"
-			(uuid "4acd247f-5882-4579-bd79-6743da12ab11")
-		)
-		(instances
-			(project "LaserOps_PCB"
-				(path "/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/d87c0e11-25bc-47e4-9f8b-0d6cc0deee19"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -10774,7 +10478,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3.3V"
 			(at 260.604 47.498 0)
 			(effects
 				(font
@@ -10783,7 +10487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 256.54 40.64 0)
 			(effects
 				(font
@@ -11354,75 +11058,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 151.13 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58732042-ae16-4c89-be58-37bbf7733560")
-		(property "Reference" "C21"
-			(at 153.67 89.6238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220µF"
-			(at 153.67 91.44 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbc67f89-c2d8-4704-8e24-d4ab9d1de008")
-		)
-		(pin "2"
-			(uuid "a64bcf14-ab05-4c4a-93ca-4521900fbd1e")
-		)
-		(instances
-			(project "LaserOps_PCB"
-				(path "/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/d87c0e11-25bc-47e4-9f8b-0d6cc0deee19"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:PMOS,HL2305")
 		(at 82.55 39.37 90)
 		(unit 1)
@@ -11797,7 +11432,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "total-current"
 			(at 249.682 47.244 0)
 			(effects
 				(font
@@ -11806,7 +11441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 245.11 40.64 0)
 			(effects
 				(font
@@ -12688,204 +12323,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:1206,22uF,(2)")
-		(at 132.08 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99f28222-fd5c-4bec-beba-0a20a092ffce")
-		(property "Reference" "C25"
-			(at 134.62 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 134.62 111.76 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
-			(at 130.302 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A226KAHNNNE_C12891.pdf"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 22uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C12891"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "517375"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.051USD"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL31A226KAHNNNE"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "25V"
-			(at 134.62 114.3 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "22uF"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 132.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98aa5761-d11e-4695-b66b-f68105054b32")
-		)
-		(pin "2"
-			(uuid "11bfa589-5f49-4105-ab74-3f6ef353302b")
-		)
-		(instances
-			(project "LaserOps_PCB"
-				(path "/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/d87c0e11-25bc-47e4-9f8b-0d6cc0deee19"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:1206,100uF")
-		(at 140.97 111.76 0)
+		(at 123.19 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12894,7 +12333,7 @@
 		(fields_autoplaced yes)
 		(uuid "a21fb824-ab81-4fb4-8bd9-a8668afcbeac")
 		(property "Reference" "C26"
-			(at 143.51 109.2199 0)
+			(at 125.73 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12903,7 +12342,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 143.51 111.76 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12912,7 +12351,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_1206"
-			(at 139.192 111.76 90)
+			(at 121.412 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12921,7 +12360,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A107MQHNNNE_C15008.pdf"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12930,7 +12369,7 @@
 			)
 		)
 		(property "Description" "6.3V 100uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12939,7 +12378,7 @@
 			)
 		)
 		(property "LCSC" "C15008"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +12387,7 @@
 			)
 		)
 		(property "Stock" "1036300"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12957,7 +12396,7 @@
 			)
 		)
 		(property "Price" "0.073USD"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12966,7 +12405,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12975,7 +12414,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12984,7 +12423,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12993,7 +12432,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13002,7 +12441,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13011,7 +12450,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13020,7 +12459,7 @@
 			)
 		)
 		(property "Part" "CL31A107MQHNNNE"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13029,7 +12468,7 @@
 			)
 		)
 		(property "Voltage Rated" "6.3V"
-			(at 143.51 114.3 0)
+			(at 125.73 114.3 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13038,7 +12477,7 @@
 			)
 		)
 		(property "Tolerance" "±20%"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13047,7 +12486,7 @@
 			)
 		)
 		(property "Capacitance" "100uF"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13056,7 +12495,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 140.97 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13524,7 +12963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS5030"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS4018"
 			(at 215.9 40.64 0)
 			(effects
 				(font
@@ -15025,6 +14464,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6d07383-f089-4230-ab83-bed8ddf7cbe1")
+		(property "Reference" "TP7"
+			(at 75.184 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 68.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad5e9b0e-bd9f-44b3-b8c3-9d4067cc8cd0")
+		)
+		(instances
+			(project "LaserOps_PCB"
+				(path "/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/d87c0e11-25bc-47e4-9f8b-0d6cc0deee19"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 158.75 49.53 0)
@@ -15660,7 +15165,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:1206,10uF")
-		(at 123.19 111.76 0)
+		(at 114.3 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15669,7 +15174,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe5fdfc4-984e-4637-8684-b54a74371240")
 		(property "Reference" "C24"
-			(at 125.73 109.2199 0)
+			(at 116.84 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15678,7 +15183,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 125.73 111.76 0)
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15687,7 +15192,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_1206"
-			(at 121.412 111.76 90)
+			(at 112.522 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15696,7 +15201,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15705,7 +15210,7 @@
 			)
 		)
 		(property "Description" "50V 10uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,7 +15219,7 @@
 			)
 		)
 		(property "LCSC" "C13585"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15723,7 +15228,7 @@
 			)
 		)
 		(property "Stock" "5756614"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15732,7 +15237,7 @@
 			)
 		)
 		(property "Price" "0.035USD"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15741,7 +15246,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15750,7 +15255,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15759,7 +15264,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15768,7 +15273,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15777,7 +15282,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15786,7 +15291,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15795,7 +15300,7 @@
 			)
 		)
 		(property "Part" "CL31A106KBHNNNE"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15804,7 +15309,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 125.73 114.3 0)
+			(at 116.84 114.3 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15813,7 +15318,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,7 +15327,7 @@
 			)
 		)
 		(property "Capacitance" "10uF"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15831,7 +15336,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 123.19 111.76 0)
+			(at 114.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

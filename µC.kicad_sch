@@ -751,265 +751,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Capacitors:0805,100nF,(2)"
 			(pin_numbers
 				(hide yes)
@@ -1773,6 +1514,68 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Manufacturing:Part Number, PCM_JLCPCB, 0.8x0.15mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PN"
+				(at 2.286 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:Part_Num_JLCPCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/help/article/How-to-remove-order-number-from-your-PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "To indicate the location, simply add the text \"JLCJLCJLCJLC\" to the silk layer and select the \"Specify a location\" option when placing your order. Please note that if this option is not chosen, we may not notice that you have added the text.   Note: Use only \"JLCJLCJLCJLC\" without any additional characters. The font size should be larger than 0.8mm in height and 0.15mm in width."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Part Number, PCM_JLCPCB, 0.8x0.15mm_0_1"
+				(rectangle
+					(start 0 0.635)
+					(end 0.635 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3960,18 +3763,6 @@
 		)
 		(uuid 4d0e1085-da6c-48d1-a787-fbcc2a897cf3)
 	)
-	(rectangle
-		(start 120.142 17.78)
-		(end 156.21 44.45)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6194b3f6-ee90-4461-a40f-f4f357611eac)
-	)
 	(text "ESP32-S3-wroom-u1-N16R8"
 		(exclude_from_sim no)
 		(at 16.51 17.78 0)
@@ -3993,17 +3784,6 @@
 			(justify left bottom)
 		)
 		(uuid "63266b51-17a2-4dce-b60b-36c132a051c3")
-	)
-	(text "Jumpers"
-		(exclude_from_sim no)
-		(at 120.142 17.78 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "84176a91-9058-431f-a343-a19c5cb464a0")
 	)
 	(junction
 		(at 21.59 73.66)
@@ -4120,12 +3900,60 @@
 		(uuid "ffcc2bf6-e4f9-48cf-8906-1733ab8f6a6f")
 	)
 	(no_connect
+		(at 64.77 71.12)
+		(uuid "3b77ee21-67ea-4b36-aa09-83cf6acd8835")
+	)
+	(no_connect
+		(at 95.25 45.72)
+		(uuid "5e70e1c7-2dc8-4577-9bba-533bf2c2df1b")
+	)
+	(no_connect
+		(at 95.25 48.26)
+		(uuid "7ed56256-aa8b-411c-b6a4-620c4a09f302")
+	)
+	(no_connect
+		(at 95.25 86.36)
+		(uuid "9edbd493-7afe-42ba-9c28-f0b20d1ce230")
+	)
+	(no_connect
+		(at 64.77 83.82)
+		(uuid "ae76fce8-b081-4bcc-879b-5f0cef8a6bb1")
+	)
+	(no_connect
+		(at 66.04 52.07)
+		(uuid "ba3480e9-a426-4bde-bfe1-0953b9a04424")
+	)
+	(no_connect
+		(at 64.77 53.34)
+		(uuid "c644d6ce-c12d-417a-8000-cbbf0441f3ee")
+	)
+	(no_connect
+		(at 64.77 68.58)
+		(uuid "cd63ee11-f537-40ae-8c68-ca190d9f27dd")
+	)
+	(no_connect
+		(at 64.77 86.36)
+		(uuid "ceef0fbc-c693-4cae-bc60-8ec975074247")
+	)
+	(no_connect
+		(at 64.77 55.88)
+		(uuid "d0543f64-483c-4d65-9214-ed25b9613f27")
+	)
+	(no_connect
+		(at 64.77 63.5)
+		(uuid "d1e8a413-5a82-4577-bb63-82b040f76a29")
+	)
+	(no_connect
 		(at 95.25 78.74)
 		(uuid "da3962f9-bb8f-4982-8258-31a47a198efc")
 	)
 	(no_connect
 		(at 95.25 81.28)
 		(uuid "e85fb90b-4874-4acb-bdc2-c994c2e2055f")
+	)
+	(no_connect
+		(at 95.25 83.82)
+		(uuid "f59b7309-2cb8-4158-a58e-965a745457a3")
 	)
 	(wire
 		(pts
@@ -4246,16 +4074,6 @@
 			(type default)
 		)
 		(uuid "3d14edf2-c532-42de-85dc-f76c018efb78")
-	)
-	(wire
-		(pts
-			(xy 105.41 43.18) (xy 95.25 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41198745-138d-4dc5-94fe-aaa6353c9007")
 	)
 	(wire
 		(pts
@@ -4386,16 +4204,6 @@
 			(type default)
 		)
 		(uuid "77744898-4f00-46a9-b5bc-dd9ffc4d1be0")
-	)
-	(wire
-		(pts
-			(xy 128.27 29.21) (xy 129.54 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78dcd3a9-bd75-4610-a0e3-128f5f3ef6bd")
 	)
 	(wire
 		(pts
@@ -4707,16 +4515,6 @@
 		)
 		(uuid "8bc75eae-e5e5-4c88-b3d4-f8bfd82f18af")
 	)
-	(label "IO44"
-		(at 128.27 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e268a85-d3f1-4cb9-be64-efda197b0b7a")
-	)
 	(label "USB_D-"
 		(at 105.41 50.8 0)
 		(effects
@@ -4757,16 +4555,6 @@
 		)
 		(uuid "dbb8ed11-0195-45b7-b785-7cb575fa0b0c")
 	)
-	(label "IO44"
-		(at 105.41 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7c8573c-5a03-42df-9236-0159c881276e")
-	)
 	(label "Boot"
 		(at 39.37 50.8 0)
 		(effects
@@ -4776,28 +4564,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa66ef85-bd86-496b-89f5-14c2a53364af")
-	)
-	(global_label "CAM_D5"
-		(shape input)
-		(at 64.77 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05f0b21f-c08e-4fa8-be93-88303b9db4f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5277 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "IR_ADC"
 		(shape input)
@@ -4823,7 +4589,7 @@
 	)
 	(global_label "LIS3DH_Int1"
 		(shape input)
-		(at 64.77 53.34 180)
+		(at 64.77 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4833,7 +4599,7 @@
 		)
 		(uuid "136ffcf3-5b44-4b75-bdc6-c2c5883490da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.4758 53.34 0)
+			(at 50.4758 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,28 +4622,6 @@
 		(uuid "16993402-4ada-41d1-bd95-6cb191a5fbb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.5895 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO44D"
-		(shape input)
-		(at 133.35 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17b90f4e-f32a-4348-9e48-059675a130f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.9595 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,46 +4675,24 @@
 			)
 		)
 	)
-	(global_label "CAM_D2"
+	(global_label "IO44"
 		(shape input)
-		(at 64.77 60.96 180)
+		(at 95.25 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "3ed310f7-3246-428a-91f4-a0c9a46e9950")
+		(uuid "2c886c66-f4f0-433f-af46-f21ab9af74a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5277 60.96 0)
+			(at 102.5895 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_D0"
-		(shape input)
-		(at 64.77 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e577f7e-6161-41d3-b6ff-f16a6fa082ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5277 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4993,50 +4715,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_D3"
-		(shape input)
-		(at 64.77 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59752940-a9d1-4cf6-8c3c-b3f49c87928a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5277 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_PC"
-		(shape input)
-		(at 64.77 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61355336-1734-43e0-960c-6d38a3445f29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.4672 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5065,29 +4743,7 @@
 	)
 	(global_label "IR_Signal"
 		(shape input)
-		(at 95.25 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7eaa4c69-86a1-4bc0-957f-7ce08705ae66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0041 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_D4"
-		(shape input)
-		(at 64.77 83.82 180)
+		(at 64.77 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5095,9 +4751,9 @@
 			)
 			(justify right)
 		)
-		(uuid "820f4c23-d670-4a16-9d61-bfccfbb6beae")
+		(uuid "7eaa4c69-86a1-4bc0-957f-7ce08705ae66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5277 83.82 0)
+			(at 53.0159 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,22 +4787,22 @@
 	)
 	(global_label "Hit_Lamp"
 		(shape input)
-		(at 95.25 86.36 0)
+		(at 64.77 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a670d353-d5a5-4877-babd-00fbe97994f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.8832 86.36 0)
+			(at 53.1368 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5164,28 +4820,6 @@
 		(uuid "a935c8b6-fd6a-4560-a615-19b3ff97bb20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.5895 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_D7"
-		(shape input)
-		(at 95.25 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b012b118-0657-4fc2-990b-1b469c0d1569")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4923 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +4851,7 @@
 			)
 		)
 	)
-	(global_label "CAM_PD"
+	(global_label "IO11"
 		(shape input)
 		(at 64.77 73.66 180)
 		(fields_autoplaced yes)
@@ -5227,31 +4861,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b8cc702c-0392-4302-b5f5-6ea649358ab2")
+		(uuid "bd6d4e62-7246-4f81-b5c9-d05a27df041d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.4672 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_HS"
-		(shape input)
-		(at 64.77 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5b1214d-f621-4cdb-bdcc-4193390ddca7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.4672 68.58 0)
+			(at 57.4305 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,28 +4917,6 @@
 			)
 		)
 	)
-	(global_label "CAM_VS"
-		(shape input)
-		(at 64.77 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d6ce013f-cf26-448b-be9b-bc8a1836997d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7091 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Reload"
 		(shape input)
 		(at 95.25 73.66 0)
@@ -5345,28 +4935,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_D1"
-		(shape input)
-		(at 64.77 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e363b5fe-801e-476a-8864-b818068f4dab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5277 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5437,28 +5005,6 @@
 			)
 		)
 	)
-	(global_label "CAM_D6"
-		(shape input)
-		(at 95.25 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ebdc74fa-7bb7-47aa-bc82-bc32821d65a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4923 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO39"
 		(shape input)
 		(at 95.25 68.58 0)
@@ -5472,28 +5018,6 @@
 		(uuid "ec125f87-ab52-417b-9919-7fadd78adaea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.5895 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO44A"
-		(shape input)
-		(at 133.35 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed3be119-47cd-4323-b3e8-f7ab0e2f2721")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.7781 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,78 +7873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 133.35 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "be0a1f97-cbea-4ad8-b6a8-1a0e1b28f6a5")
-		(property "Reference" "JP5"
-			(at 136.144 29.972 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 135.128 28.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 133.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 133.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02fdfeb4-f97c-4eb5-a177-a970b6beb4ad")
-		)
-		(pin "3"
-			(uuid "43d1ec2e-7e62-44d8-b4e7-54224af69aef")
-		)
-		(pin "2"
-			(uuid "b02e8719-7e29-483c-8b2e-dc8dc3017afb")
-		)
-		(instances
-			(project "LaserOps_PCB"
-				(path "/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/04971dad-1181-4ff1-b99d-d5eca715a10a"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 133.35 66.04 270)
@@ -9190,6 +8642,70 @@
 			(project ""
 				(path "/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/04971dad-1181-4ff1-b99d-d5eca715a10a"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Part Number, PCM_JLCPCB, 0.8x0.15mm")
+		(at 124.46 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee109d51-bcf3-40b9-8ca6-1f3fa842adee")
+		(property "Reference" "PN1"
+			(at 125.73 17.1449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 125.73 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Part_Num_JLCPCB"
+			(at 124.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/help/article/How-to-remove-order-number-from-your-PCB"
+			(at 124.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "To indicate the location, simply add the text \"JLCJLCJLCJLC\" to the silk layer and select the \"Specify a location\" option when placing your order. Please note that if this option is not chosen, we may not notice that you have added the text.   Note: Use only \"JLCJLCJLCJLC\" without any additional characters. The font size should be larger than 0.8mm in height and 0.15mm in width."
+			(at 124.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fc5dd40f-cf0c-4004-b39d-c6d05323db0e/04971dad-1181-4ff1-b99d-d5eca715a10a"
+					(reference "PN1")
 					(unit 1)
 				)
 			)
